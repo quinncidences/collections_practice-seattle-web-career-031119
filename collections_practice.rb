@@ -46,7 +46,7 @@ end
     
 
 def add_s(array)
-  array.each_with_index(word, index)
+  array.each_with_index(word, index) do
     if index =! 1
       word << "s"
     else 
