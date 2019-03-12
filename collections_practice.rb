@@ -40,6 +40,7 @@ end
     
     
 def sum_array(array)
-  array.sum
+  array.each do |num1, num2| num1+num2
+end
     
     
