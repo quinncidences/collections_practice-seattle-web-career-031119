@@ -33,7 +33,9 @@ def kesha_maker(array)
   new_array
 end
 
-
+def find_a(array)
+  start_array = []
+  array.find_all("a")
     
     
     
