@@ -46,6 +46,5 @@ end
     
 
 def add_s(array)
-  array.each do |word|
-    if word =! array[1]
-      {
+  array.each_with_index(word, index)
+  
